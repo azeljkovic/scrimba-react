@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100px;
+    padding: 30px;
+}
+
+.body {
+    font-size: 30px;
+}
