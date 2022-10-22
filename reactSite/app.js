@@ -1,17 +1,26 @@
 import {render} from "react-dom";
 import logo from "./images/react-logo.png"
 
-const Navbar = () => {
+const Header = () => {
   return (
-    <img
-      className="navbar"
-      alt="react-logo"
-      src={logo}/>
+    <header>
+      <nav className="navbar">
+        <img src={logo}
+             className="react-logo"
+             alt="react-logo"
+        />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 
 
-const Body = () => {
+const Content = () => {
   return (
     <nav className="body">
       <h1>Fun facts about React</h1>
@@ -26,11 +35,22 @@ const Body = () => {
   );
 }
 
+const Footer = () => {
+  return (
+    <footer>
+      <div>
+        © 2022 Aleksandar Zeljković
+      </div>
+    </footer>
+  )
+}
+
 const Page = () => {
   return (
     <div>
-      <Navbar/>
-      <Body/>
+      <Header/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }
