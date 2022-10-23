@@ -1,16 +1,13 @@
-import {render} from "react-dom";
-import Header from "./Header";
-import Content from "./Content";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
-const Page = () => {
+const App = () => {
   return (
     <div>
       <Header/>
-      <Content/>
-      <Footer/>
+      <Main/>
     </div>
   );
 }
 
-render(<Page/>, document.querySelector("#root"));
+export default App;

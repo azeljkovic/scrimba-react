@@ -1,4 +1,4 @@
-const Content = () => {
+const Main = () => {
   return (
     <nav className="body">
       <h1>Fun facts about React</h1>
@@ -13,4 +13,4 @@ const Content = () => {
   );
 }
 
-export default Content;
+export default Main;
