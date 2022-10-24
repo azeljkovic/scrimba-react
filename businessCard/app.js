@@ -1,9 +1,9 @@
-import Main from "./components/Main";
+import Info from "./components/Info";
 
 const App = () => {
   return (
-    <div>
-      <Main/>
+    <div className="card">
+      <Info/>
     </div>
   );
 }
