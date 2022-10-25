@@ -6,6 +6,7 @@
   "scripts": {
     "dev:reactSite": "parcel reactSite/index.html",
     "dev:businessCard": "parcel businessCard/index.html",
+    "dev:airbnbClone": "parcel airbnbClone/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
