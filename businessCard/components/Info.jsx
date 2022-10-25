@@ -5,7 +5,7 @@ import linkedinIcon from "../images/linkedin-icon.png"
 const Info = () => {
   return (
     <div>
-      <img src={image} alt="my-image"/>
+      <img className="image" src={image} alt="my-image"/>
       <h1 className="name">Laura Smith</h1>
       <h2 className="title">Frontend Developer</h2>
       <h3 className="website">laurasmith.website</h3>

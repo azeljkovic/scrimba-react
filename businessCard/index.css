@@ -13,6 +13,11 @@ body {
     width: 317px;
     background-color: #1A1B21;
     margin: auto;
+    border-radius: 10px;
+}
+
+.image {
+    border-radius: 10px 10px 0 0;
 }
 
 /* Info component */
@@ -118,10 +123,12 @@ body {
 
 /* Footer component */
 .footer {
+    height: 64px;
     padding: 10px 70px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 
     background-color: #161619;
+    border-radius: 0 0 10px 10px;
 }
